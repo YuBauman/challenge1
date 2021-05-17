@@ -5,7 +5,7 @@ var numbers = /[0-9]/g;
 
 convert.onclick = function () {
   if (input.value !== "" && input.value.match(numbers)) {
-    mars_miles.value = input.value * 1.5;
+    mars_miles.value = (input.value * 1.9).toFixed(2);
   } else {
     alert("Please insert numbers in the field 'Earth Miles'");
     return false;
