@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ship parameters</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script/parameters.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <div id="logo-box">
+          <svg
+            id="spaceXicon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="-59.625 -12.15 516.75 72.9"
+          >
+            <path
+              d="M36 29.8H9.4v-6.6h34.3c-.9-2.8-3.8-5.4-8.9-5.4H9.9c-5.7 0-9 2.1-9 6.7v4.9c0 4 3.4 6.3 8.4 6.3h26.9v7H0c.9 3.8 3.8 5.8 9 5.8h27.1c5.7 0 8.5-2.2 8.5-6.9v-4.9c0-4.3-3.3-6.6-8.6-6.9zm54.3-11.9H57.5v30.7h9.3V36.8H91c6.7 0 10.4-2.3 10.4-7.7v-3.4c-.1-5-4.3-7.8-11.1-7.8zm3 9.8c0 2.2-.4 3.4-4 3.4H66.8l.1-8h22c4 0 4.5 1.2 4.5 3.3v1.3zm39 8.9h-19.8l-4.9 5.2h28.6l4.9 6.8h11l-23.7-32-5.6 6.9zm37.6-13.4h34.8c-.9-3.6-4.4-5.4-9.4-5.4h-26c-4.5 0-8.8 1.8-8.8 6.7v17.2c0 4.9 4.3 6.7 8.8 6.7h26.3c6 0 8.1-1.7 9.1-5.8h-34.8zm75.6 10.2v-5.2h-28.1v20.4h41.5v-5.8h-32.1v-9.4zm-27.1-15.5h41.9v5.4h-41.9zm67.7 0h-14.6l17.2 12.6c2.5-1.7 5.4-3.5 8-5zm21.2 15.7c-2.5 1.7-5 3.6-7.4 5.4l13 9.5h14.7z"
+            />
+            <path
+              d="M397.5 0c-80 4.6-117 38.8-125.3 46.9l-1.7 1.6h14.8C325.3 8.4 382.8 1.3 397.5 0z"
+            />
+          </svg>
+        </div>
+      </a>
+      <p>Welcome to Interplanetary Transport System Interface</p>
+    </header>
+
+    <a href="index.html" class="back_button">Back</a>
+    <h1>Ship's parameters</h1>
+
+    <div id="parameters_table">
+      <div class="table_row">
+        <h3>Current Speed</h3>
+
+        <div class="controller">
+          <svg
+            id="minus_icon"
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 480 480"
+            style="enable-background: new 0 0 480 480"
+            xml:space="preserve"
+          >
+            <g>
+              <g>
+                <path
+                  d="M240,0C107.452,0,0,107.452,0,240s107.452,240,240,240c132.486-0.15,239.85-107.514,240-240C480,107.452,372.548,0,240,0z
+			 M240,464C116.288,464,16,363.712,16,240S116.288,16,240,16c123.653,0.141,223.859,100.347,224,224
+			C464,363.712,363.712,464,240,464z"
+                />
+              </g>
+            </g>
+            <g>
+              <g>
+                <path
+                  d="M336,232H144c-4.418,0-8,3.582-8,8s3.582,8,8,8h192c4.418,0,8-3.582,8-8S340.418,232,336,232z"
+                />
+              </g>
+            </g>
+          </svg>
+
+          <p id="speed_parameter"></p>
+          <p>km/s</p>
+          <svg
+            id="add_icon"
+            version="1.1"
+            id="Capa_1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 496 496"
+            style="enable-background: new 0 0 496 496"
+            xml:space="preserve"
+          >
+            <g>
+              <g>
+                <g>
+                  <path
+                    d="M248,0C111.033,0,0,111.033,0,248c0.154,136.903,111.097,247.846,248,248c136.967,0,248-111.033,248-248S384.967,0,248,0
+				z M248,480C119.87,480,16,376.13,16,248C16.146,119.93,119.93,16.146,248,16c128.13,0,232,103.87,232,232S376.13,480,248,480z"
+                  />
+                  <path
+                    d="M400,240H256V96c0-4.418-3.582-8-8-8s-8,3.582-8,8v144H96c-4.418,0-8,3.582-8,8s3.582,8,8,8h144v144c0,4.418,3.582,8,8,8
+				s8-3.582,8-8V256h144c4.418,0,8-3.582,8-8S404.418,240,400,240z"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+      <div class="table_row">
+        <h3>Fuel consumption</h3>
+        <div class="fuel_parameter">
+          <p id="consumption_parameter"></p>
+          <p>L/100km</p>
+        </div>
+      </div>
+      <div class="table_row">
+        <h3>Fuel storage</h3>
+        <div class="fuel_parameter">
+          <p id="storage_parameter">156 000</p>
+          <p>L</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
