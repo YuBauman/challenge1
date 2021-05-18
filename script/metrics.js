@@ -7,7 +7,7 @@ convert.onclick = function () {
   if (input.value !== "" && input.value.match(numbers)) {
     mars_miles.value = (input.value * 1.9).toFixed(2);
   } else {
-    alert("Please insert numbers in the field 'Earth Miles'");
+    alert("Please insert numbers in the field 'Earth Hours'");
     return false;
   }
 };
